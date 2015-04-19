@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animag.Web", "Animag.Web\Animag.Web.csproj", "{7CE3FA16-5053-43D8-B83A-AE48861889F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animag.Web.Tests", "Animag.Web.Tests\Animag.Web.Tests.csproj", "{DEB12295-78A3-4EB6-958D-4CA0BA8329BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animag.WebApi", "Animag.WebApi\Animag.WebApi.csproj", "{97CBAEB4-538E-486F-98A2-A0071FB140FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animag.WebApi.Tests", "Animag.WebApi.Tests\Animag.WebApi.Tests.csproj", "{73CD4F64-9823-460B-B49E-48744FCB6974}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CE3FA16-5053-43D8-B83A-AE48861889F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE3FA16-5053-43D8-B83A-AE48861889F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE3FA16-5053-43D8-B83A-AE48861889F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE3FA16-5053-43D8-B83A-AE48861889F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEB12295-78A3-4EB6-958D-4CA0BA8329BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB12295-78A3-4EB6-958D-4CA0BA8329BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB12295-78A3-4EB6-958D-4CA0BA8329BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB12295-78A3-4EB6-958D-4CA0BA8329BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97CBAEB4-538E-486F-98A2-A0071FB140FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CBAEB4-538E-486F-98A2-A0071FB140FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CBAEB4-538E-486F-98A2-A0071FB140FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CBAEB4-538E-486F-98A2-A0071FB140FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73CD4F64-9823-460B-B49E-48744FCB6974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CD4F64-9823-460B-B49E-48744FCB6974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CD4F64-9823-460B-B49E-48744FCB6974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CD4F64-9823-460B-B49E-48744FCB6974}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
