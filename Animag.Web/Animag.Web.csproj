@@ -287,6 +287,15 @@
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\sammy-0.7.5.js" />
     <Content Include="Scripts\sammy-0.7.5.min.js" />
+    <Content Include="Scripts\turn\hash.js" />
+    <Content Include="Scripts\turn\scissor.js" />
+    <Content Include="Scripts\turn\scissor.min.js" />
+    <Content Include="Scripts\turn\turn.html4.js" />
+    <Content Include="Scripts\turn\turn.html4.min.js" />
+    <Content Include="Scripts\turn\turn.js" />
+    <Content Include="Scripts\turn\turn.min.js" />
+    <Content Include="Scripts\turn\zoom.js" />
+    <Content Include="Scripts\turn\zoom.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Scripts\app\_run.js" />
     <Content Include="Scripts\app\app.datamodel.js" />
