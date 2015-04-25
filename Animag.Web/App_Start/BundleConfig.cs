@@ -41,6 +41,14 @@ namespace Animag.Web
             bundles.Add(new StyleBundle("~/Content/css").Include(
                  "~/Content/bootstrap.css",
                  "~/Content/Site.css"));
+
+            //turn
+            bundles.Add(new ScriptBundle("~/bundles/turn").Include(
+                "~/Scripts/turn/hash.js",
+                "~/Scripts/turn/scissor.js",
+                "~/Scripts/turn/turn.html4.js",
+                "~/Scripts/turn/turn.js",
+                "~/Scripts/turn/zoom.js"));
         }
     }
 }

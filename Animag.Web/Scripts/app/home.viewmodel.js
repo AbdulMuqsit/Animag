@@ -24,6 +24,12 @@
     return self;
 }
 
+    $("#flipbook").turn({
+        width: 400,
+        height: 300,
+        autoCenter: true
+    });
+
 app.addViewModel({
     name: "Home",
     bindingMemberName: "home",
