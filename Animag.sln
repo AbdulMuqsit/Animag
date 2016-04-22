@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animag.WebApi", "Animag.Web
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animag.WebApi.Tests", "Animag.WebApi.Tests\Animag.WebApi.Tests.csproj", "{73CD4F64-9823-460B-B49E-48744FCB6974}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animag", "Animag\Animag.csproj", "{07B387A9-CD95-45AC-98E7-134575CB113F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animag.Tests", "Animag.Tests\Animag.Tests.csproj", "{B8A0E97B-CF7E-4C3C-9E44-FCF95CFA9DE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{73CD4F64-9823-460B-B49E-48744FCB6974}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73CD4F64-9823-460B-B49E-48744FCB6974}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73CD4F64-9823-460B-B49E-48744FCB6974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B387A9-CD95-45AC-98E7-134575CB113F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B387A9-CD95-45AC-98E7-134575CB113F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B387A9-CD95-45AC-98E7-134575CB113F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B387A9-CD95-45AC-98E7-134575CB113F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A0E97B-CF7E-4C3C-9E44-FCF95CFA9DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A0E97B-CF7E-4C3C-9E44-FCF95CFA9DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A0E97B-CF7E-4C3C-9E44-FCF95CFA9DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A0E97B-CF7E-4C3C-9E44-FCF95CFA9DE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
